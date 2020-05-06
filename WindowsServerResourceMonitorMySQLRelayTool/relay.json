@@ -1,0 +1,23 @@
+﻿{
+  "mysql": {
+    "host": "localhost",
+    "database": "WindowsServerResourceMonitor",
+    "user": "root",
+    "pass": "password",
+    "structinfo": "tablestruct.json"
+  },
+  "server": {
+    "servicename": "ResMonSrvSvc",
+    "host": "localhost",
+    "port": 32768,
+    "path": {
+      "signin": "/v1/auth",
+      "getresource": "/v1/",
+      "signout": "/v1/auth"
+    },
+    "user": "winserveradmin",
+    "pass": "winntadminuser"
+  },
+  "processtime": 1000,
+  "entrynum": 100
+}

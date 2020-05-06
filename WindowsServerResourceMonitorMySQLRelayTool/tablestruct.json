@@ -1,0 +1,39 @@
+﻿{
+  "processor": {
+    "name": "Processor",
+    "struct": {
+      "usage": "Usage",
+      "process": "ProcessNum"
+    }
+  },
+  "memory": {
+    "name": "Memory",
+    "struct": {
+      "totalphysical": "TotalPhys",
+      "totalcommit": "TotalCommit",
+      "availphysical": "AvailPhys",
+      "availcommit": "AvailCommit",
+      "usedphysical": "UsedPhys",
+      "usedcommit": "UsedCommit",
+      "usedperphysical": "UsedPerPhys",
+      "usedpercommit": "UsedPerCommit"
+    }
+  },
+  "disk": {
+    "struct": {
+      "total": "DiskTotal",
+      "free": "DiskFree",
+      "used": "DiskUsed",
+      "freeper": "DiskFreePer",
+      "usedper": "DiskUsedPer",
+      "read": "DiskRead",
+      "write": "DiskWrite"
+    }
+  },
+  "network": {
+    "struct": {
+      "receive": "NetReceive",
+      "send": "NetSend"
+    }
+  }
+}
